@@ -1,0 +1,12 @@
+.reward {
+    padding: 0px 20px 0px;
+    margin: 0px 0px 40px 0px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+    position: relative;
+}
+
+.rewardContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}

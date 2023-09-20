@@ -1,0 +1,135 @@
+.faq {
+    padding: 0px 20px 0px;
+    margin: 0px 0px 40px 0px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+    position: relative;
+}
+
+.faqContainer {
+    display: grid;
+    grid-template-columns: 50% auto;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.faqText {
+    padding: 0px 0px 0px 80px;
+}
+
+.faqText h1 {
+    width: 60%;
+    margin: 0px;
+    font-family: "Clash Display", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;   
+    line-height: 1.5;
+}
+
+.faqText span {
+    color: var(--textColor);
+}
+
+.faqText p, .desc {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.desc {
+    width: 70%;
+    margin-bottom: 60px;
+}
+
+.faqContainer {
+    padding: 100px 0px;
+}
+
+
+.faqList span {
+    float: right;
+    font-weight: bold;
+
+}
+
+.qContainer {
+    border-bottom: 1px solid #D434FE;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+}
+
+.qContainer:active .answer {
+    display: block;
+}
+
+.faqImg {
+    padding: 40px;
+}
+
+.faqImg img {
+    width: 100%;
+}
+
+.faqItems p {
+    position: absolute;
+    font-family: "MADE TOMMY Outline", sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #D434FE;
+    z-index: -1;
+}
+
+.faqItems p:first-of-type {
+    font-weight: bold;
+    font-size: 120px;
+    right: 27%;
+    top: -10%;
+}
+
+.faqItems p:nth-of-type(2) {
+    right: 19%;
+    top: 0%;
+}
+
+.faqItems p:nth-of-type(3) {
+    right: 37%;
+    top: 0%;
+}
+
+.faqItems img {
+    position: absolute; 
+} 
+
+.faqItems img:first-child {
+    top: 10%;
+    left: 5%;
+}
+
+.faqItems img:nth-child(2) {
+    bottom: 15%;
+    right: 30%;
+}
+
+.faqItems img:nth-child(3) {
+    top: 45%;
+    left: 55%;
+    width: 20px;
+}
+
+.faqItems img:nth-child(4) {
+    top: 10%;
+    right: 25%;
+}
+
+.faqItems img:nth-child(5) {
+    top: 25%;
+    right: 35%;
+}

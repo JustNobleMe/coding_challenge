@@ -1,0 +1,115 @@
+.tline {
+    padding: 0px 20px 0px;
+    margin: 0px 0px 40px 0px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+    position: relative;
+}
+
+.tlineContainer {
+    /* display: grid; */
+    justify-content: center;
+}
+
+.tlineContainer {
+    padding: 0px 40px;
+}
+
+.tlineHead {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    
+}
+
+.tlineHead h1 {
+    font-family: "Clash Display", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+}
+
+.tlineHead p {
+    width: 30%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%; 
+}
+
+.dContainer {
+    position: relative;
+    margin: 100px 0px;
+}
+
+.tlineDetails {
+    display: grid;
+    grid-template-columns: 40% 53px 45%;
+    align-items: center;
+    column-gap: 50px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 40px;
+    
+}
+
+.tlineDetails h2  {
+    color: var(--textColor);
+}
+
+.tlineDetails p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%;
+}
+
+.right {
+    text-align: right;
+}
+
+.no {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+    position: relative;
+}
+
+.no span {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+
+.line {
+    position: absolute;
+    width: 4px;
+    height: 86px;
+    background: var(--textColor);
+    top: -180%;
+    left: 50%;
+}
+
+.tlineItems img{
+    position: absolute;
+}
+
+.tlineItems img:nth-child(1){
+    top: 13%;
+    left: 15%;
+}
+
+.tlineItems img:nth-child(2){
+    top: 45%;
+    right: 20%;
+}
+
+.tlineItems img:nth-child(3){
+    bottom: 13%;
+    left: 10%;
+}
