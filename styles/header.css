@@ -1,0 +1,218 @@
+header {
+    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+    padding: 40px 20px 20px 80px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--generalColor);
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    column-gap: 300px;
+}
+
+.navLogo a {
+    text-decoration: none;
+}
+.navLogo span{
+    font-family: "Clash Display", sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navLogo span:not(:first-child) {
+    color: var(--textColor);
+}
+
+.navPages {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.navPages a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.navLinks a:not(:first-child){
+    padding-left: 50px;
+}
+
+.navBtn a, .btn{
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+
+.displayContainer {
+    background-image: url(../images/man.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-blend-mode: luminosity;
+    background-size: 45%;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+    position: relative;;
+}
+
+
+.display {
+    background-image: url(../images/Purple-Lens-Flare-PNG.png);
+    background-blend-mode: hard-light;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    padding: 0px 80px 80px 80px;
+    z-index: 1;
+}
+
+.subtitle {
+    display: grid;
+    grid-template-rows: auto auto;
+    float: right;
+    justify-items: right;
+    margin-top: 20px;
+}
+
+.subtitleText {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    float: right;
+}
+
+.subtitleImg img{
+    width: 170px;
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: 600px auto;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.titleText {
+    position: relative;
+}
+
+.titleText h2 {
+    font-family: "Clash Display", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    margin: 0px;
+    padding-top: 109px;
+    position: relative;
+}
+
+.titleText span {
+    color: var(--textColor);
+    font-weight: bolder;
+    
+}
+
+.titleText p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 0px 40px 0px;
+}
+
+.time {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    width: 50%;
+    margin-top: 60px;
+
+}
+
+.time h1 {
+    font-family: "Unica One", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.time span {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.items img {
+    position: absolute;
+}
+
+.items img:first-child {
+    width: 50px;
+    right: 34%;
+    top: 12%;
+}
+
+.items img:not(:first-child) {
+    right: 15%;
+    top: 33%;
+}
+
+.imgContainer{
+    position: relative;
+
+}
+
+.imgVision {
+    position: absolute;
+    right: 15px;
+    top: 48px;
+    width: 520px;
+}
+
+.imgVision img {
+    height: 100%;
+    width: 100%;
+}
+
+.stars img {
+    position: absolute;
+    top: 0px;
+}
+
+.stars img:first-child {
+    top: 39px;
+    left: 135px;
+}
+
+.stars img:not(:first-child) {
+    top: 70%;
+    left: 50%;
+    transition-timing-function: ease-in;
+    transform-style: preserve-3d;
+    transform-origin: left;
+}
+
+
+.stars img:nth-child(3) {
+    top: 30%;
+    left: 60%;
+}

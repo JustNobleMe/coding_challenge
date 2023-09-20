@@ -1,0 +1,96 @@
+
+.key {
+    padding: 0px 20px 20px;
+    margin: 40px 0px 0px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+}
+
+.keyContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    position: relative;
+    margin: 80px 0px;
+}
+
+.keyImg {
+    padding: 40px 0px;
+    position: relative;
+}
+
+.keyImg img:first-of-type {
+    width: 100%;
+    z-index: 1;
+}
+
+.keyImg img:nth-child(2) {
+    position: absolute;
+    top: 7%;
+    left: 16%;
+    width: 80px;
+    z-index: -1;
+}
+
+.keyImg img:nth-child(3) {
+    position: absolute;
+    left: -10%;
+    top: 25%;
+    width: 100%;
+}
+
+.keyText {
+    padding: 0px 80px 0px 0px;
+}
+
+.keyText h1 {
+    width: 50%;
+    margin: 0px;
+    font-family: "Clash Display", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;   
+    line-height: 1.2;
+}
+
+.keyText span {
+    color: var(--textColor);
+}
+
+.keyText p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.keyText p span {
+    color: var(--pSpan);
+}
+
+.keyItems img{
+    position: absolute;
+}
+
+.keyItems img:first-child {
+    top: 3%;
+    left: 10%;
+}
+
+.keyItems img:nth-child(2) {
+    left: 38%;
+    bottom: 0%;
+}
+
+.keyItems img:nth-child(3) {
+    bottom: 50%;
+    left: 23%;
+}
+
+.keyItems img:nth-child(4) {
+    width: 30%;
+    top: 60%;
+    right: -1.5%;
+}

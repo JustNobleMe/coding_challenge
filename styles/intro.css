@@ -1,0 +1,80 @@
+.intro {
+    padding: 0px 20px 0px;
+    margin: 40px 0px 0px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+}
+
+.introContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    position: relative;
+}
+
+.introImg {    
+    padding: 40px;
+    position: relative;
+}
+
+.introImg img {
+    width: 85%;
+}
+
+.introImg p {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    width: 80px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    flex-shrink: 0;
+           
+}
+
+.introText {
+    padding: 0px 80px 0px 0px;
+}
+
+.introText h1 {
+    width: 80%;
+    margin: 0px;
+    font-family: "Clash Display", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;   
+    line-height: 1.5;
+}
+
+.introText span {
+    color: var(--textColor);
+}
+
+.introText p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.introItems img{
+    position: absolute;
+}
+
+.introItems img:first-child {
+    top: 40%;
+}
+
+.introItems img:nth-child(2) {
+    bottom: 5%;
+    left: 28%;
+}
+
+.introItems img:nth-child(3) {
+    top: 30%;
+    right: 5%;
+}

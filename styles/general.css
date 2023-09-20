@@ -1,0 +1,12 @@
+body {
+    --primaryColor: linear-gradient(270deg, #903AFF 0%, #FE34B9 100%);
+    --generalColor: #150E28;
+    --textColor: #D434FE;
+    --deepColor: #903AFF;
+    --pSpan: #FF26B9;
+
+    background-color: var(--generalColor);
+    margin: 0px;
+    color: white;
+}
+

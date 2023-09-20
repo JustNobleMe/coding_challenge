@@ -1,0 +1,84 @@
+.rules {
+    padding: 0px 20px 0px;
+    margin: 0px 0px 40px 0px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+    background-image: url(../images/Purple-Lens-Flare-PNG.png);
+    background-blend-mode: hard-light;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: top;
+    position: relative;;
+}
+
+.rulesContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.rulesText {
+    padding: 0px 0px 0px 80px;
+}
+
+.rulesText h1 {
+    width: 50%;
+    margin: 0px;
+    font-family: "Clash Display", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;   
+    line-height: 1.5;
+}
+
+.rulesText span {
+    color: var(--textColor);
+}
+
+.rulesText p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.rulesImg {
+    padding: 40px;
+    position: relative;
+}
+
+.rulesImg img:first-of-type {
+    width: 95%;
+    z-index: 2;
+}
+
+.rulesImg img:not(:first-child)  {
+    position: absolute;
+    top:21%;
+    left: 56%;
+    width: 80px;
+    background-color: linear-gradient(270deg, #8F01FE 0%, #FF2674 97.24%);
+    z-index: -1;
+}
+
+.rulesItems img {
+    position: absolute;
+}
+
+.rulesItems img:first-child {
+    left: 60%;
+    bottom: 30%;
+}
+
+.rulesItems img:nth-child(2) {
+    top: 20%;
+    left: 40%;
+}
+
+.rulesItems img:nth-child(3) {
+    width: 150px;
+    top: 50%;
+    right: 0%;
+}
