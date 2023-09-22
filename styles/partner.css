@@ -1,0 +1,116 @@
+.partners {
+    padding: 40px 20px;
+    margin: 0px 0px 40px 0px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+    position: relative;
+}
+
+.partnersContainer {
+    margin: 40px 20px;
+
+}
+
+.partnersText {
+    display: grid;
+    justify-items: center;
+}
+
+.partnersText h1 {
+    font-family: "Clash Display", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.partnersText p {
+    width: 40%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.logoContainer {
+    border: 1px solid var(--textColor);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.01);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 40px 80px;
+    position: relative;
+}
+
+.logo {
+    padding: 30px;
+    width: auto;
+}
+
+.logo:nth-of-type(1),
+.logo:nth-of-type(2),
+.logo:nth-of-type(3) {
+    border-bottom: 3px solid var(--textColor);
+}
+
+.logo:nth-of-type(2) {
+    padding: 67px 0px;
+}
+
+.straight {
+    position: absolute;
+    width: 4px;
+    top: 0%;
+    left: 0%;
+    height: 120px;
+    background-color: var(--textColor);
+}
+
+.straight:first-of-type {
+    top: 15%;
+    left: 36.5%;
+}
+
+.straight:nth-of-type(2) {
+    top: 15%;
+    left: 58%;
+}
+
+.straight:nth-of-type(3){
+    top: 55%;
+    left: 36.5%;
+}
+
+.straight:nth-of-type(4) {
+    top: 55%;
+    left: 58%;
+}
+
+.partnersItems img {
+    position: absolute;
+}
+
+.partnersItems img:first-of-type {
+    top: -10%;
+    left: 0%;
+    width: 40%;
+}
+
+.partnersItems img:nth-of-type(2) {
+    bottom: -30%;
+    right: 0%;
+    width: 30%;
+}
+
+.partnersItems img:nth-of-type(3) {
+    top: 20%;
+    left: 15%;
+}
+
+.partnersItems img:nth-of-type(4) {
+    top: 30%;
+    right: 45%;
+    width: 20px;
+}

@@ -1,12 +1,162 @@
 .reward {
     padding: 0px 20px 0px;
     margin: 0px 0px 40px 0px;
-    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.18);
     position: relative;
 }
 
 .rewardContainer {
+    justify-content: center;
+}
+
+.textContainer {
     display: grid;
-    grid-template-columns: auto auto;
-    
+    grid-template-columns: 50% 50%;
+    margin: 100px 0px;
+}
+
+
+.prizeText h1 {
+    width: 40%;
+    margin: 0px;
+    font-family: "Clash Display", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;   
+    line-height: 1.5;
+}
+
+.prizeText span {
+    color: var(--textColor);
+}
+
+.prizeText p {
+    width: 55%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.prize {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    column-gap: 30px;
+    margin: 100px 0px;
+    padding: 60px 0px;
+}
+
+.award {
+    width: 80%;
+}
+
+.award img {
+    width: 100%;
+}
+
+.medals {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.medals img {
+    position: absolute;
+}
+
+.medals img:first-of-type {
+    top: -25%;
+    left: 0%;
+}
+
+.medals img:nth-of-type(2) {
+    top: -50%;
+    left: 25.5%;
+}
+
+.medals img:nth-of-type(3) {
+    top: -25%;
+    right: 0%;
+}
+
+
+.medalsContainer:not(:nth-of-type(2)) {
+    padding: 0px 40px;
+    border: 1px solid #D434FE;
+    background: rgba(212, 52, 254, 0.12);
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.medalsContainer:nth-of-type(2) {
+    padding: 0px 40px;
+    border: 1px solid #903AFF;
+    border-radius: 8px;
+    background: rgba(144, 58, 255, 0.12);
+}
+
+.medalsContainer div {
+    padding: 150px 0px 0px 0px;
+}
+
+.medalsContainer div h1,
+.medalsContainer div h2,
+.medalsContainer div h3 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    margin: 5px 0px;
+} 
+
+.medalsContainer div h2 {
+    color: var(--textColor)
+}
+
+.rewardItems img:not(:last-of-type){
+    position: absolute;
+    width: 20px;
+}
+
+.rewardItems img:first-of-type {
+    top: 5%;
+    left: 20%;
+}
+
+.rewardItems img:nth-of-type(2) {
+    top: 10%;
+    right: 25%;
+}
+
+.rewardItems img:nth-of-type(3) {
+    top: 20%;
+    left: 45%;
+}
+
+.rewardItems img:nth-of-type(4) {
+    top: 28%;
+    right: 0%;
+}
+
+.rewardItems img:nth-of-type(5) {
+    bottom: 15%;
+    left: 15%;
+}
+
+.rewardItems img:nth-of-type(6) {
+    bottom: 15%;
+    right: 30%;
+}
+
+.rewardItems img:nth-of-type(7) {
+    position: absolute;
+    width: 50%;
+    bottom: 15%;
+    left: 0%;
+    z-index: -1;
 }
