@@ -1,0 +1,98 @@
+.terms {
+    padding: 0px 20px 0px;
+    margin: 0px 0px 40px 0px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+    position: relative;
+}
+
+.termsContainer {
+    display: grid;
+    grid-template-columns: 50% auto;
+    align-items: center;
+    column-gap: 30px;
+    padding: 40px;
+}
+
+.termsText {
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 30px;
+}
+
+.firstText h1 {
+    font-family: "Clash Display", sans-serif;
+    font-size: 32px;
+    line-height: 1.3;
+    width: 50%;
+}
+
+.firstText span {
+    color: var(--textColor);
+    font-family: "Clash Display", sans-serif;
+}
+
+.firstText p:first-of-type {
+    font-family: "Montserrat", sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.firstText p:nth-of-type(2) {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 188.4%;
+    width: 70%;
+}
+
+.secondText {
+    border: 1px solid var(--textColor);
+    border-radius: 5px;
+    padding: 40px;
+    background: rgba(217, 217, 217, 0.03);
+    
+}
+
+.secondText p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 216.4%;
+    
+    
+}
+
+.secondText h2 {
+    color: var(--textColor);
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 216.4%;
+    margin: 0;
+}
+
+.secondText h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+
+.termsList div:not(:last-of-type){
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    align-items: start;
+    margin: 20px 0px;
+}
+
+.termsList div p {
+    margin: 0;
+}
+
+.termsBtn {
+    display: grid;
+    justify-content: center;
+}

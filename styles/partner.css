@@ -114,3 +114,9 @@
     right: 45%;
     width: 20px;
 }
+
+.partnersItems img:nth-of-type(5) {
+    bottom: 15%;
+    right: 45%;
+    width: 20px
+}
