@@ -5,6 +5,7 @@
     position: relative;
 }
 
+
 .termsContainer {
     display: grid;
     grid-template-columns: 50% auto;
@@ -156,4 +157,5 @@
     bottom: -35%;
     left: 0;
     width: 50%;
+    z-index: -1;
 }
